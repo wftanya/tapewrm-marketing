@@ -16,7 +16,7 @@ export default function Contribute() {
             <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
           </div>
         </Link>
-        <Link className="no-underline" href="https://tapewrm.org">
+        <Link className="no-underline" href="https://app.tapewrm.org">
           <div>
             <span className="cta">Goto</span>
             <h1 className={`heading text-shadows`}>Tapewrm</h1>

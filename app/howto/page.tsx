@@ -16,7 +16,7 @@ export default function HowTo() {
             <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
           </div>
         </Link>
-        <Link className="no-underline" href="https://tapewrm.org">
+        <Link className="no-underline" href="https://app.tapewrm.org">
           <div>
             <span className="cta">Goto</span>
             <h1 className={`heading text-shadows`}>Tapewrm</h1>
@@ -45,7 +45,7 @@ export default function HowTo() {
           <p>
             The current iteration of the Tapewrm app is trained on shelves of roughly 100 tapes aligned in single rows of vertical standing spines.
             So if this looks like your collection, you're in luck!
-            <Link href="https://tapewrm.org"> Just snap a photo of it and feed it to Tapewrm.</Link>
+            <Link href="https://app.tapewrm.org"> Just snap a photo of it and feed it to Tapewrm.</Link>
           </p>
 
           <div className="vhs-stills">
@@ -60,7 +60,7 @@ export default function HowTo() {
             <img className="larger-img" src="./../manual2.png" alt="Screengrab of app showing manual entry mode with autocomplete" />
           </div>
           <p>
-             Want to catalog your tapes but your shelves are more of a chaotic mess of horizontal stacks, leaning towers, and general VHS mayhem? <Link href="https://tapewrm.org">Try it out anyways!</Link> Your photo will help train version 2.0, which you can be notified of updates of by following <Link href="https://www.instagram.com/vhs_venture/">Tom on Instagram</Link>.
+             Want to catalog your tapes but your shelves are more of a chaotic mess of horizontal stacks, leaning towers, and general VHS mayhem? <Link href="https://app.tapewrm.org">Try it out anyways!</Link> Your photo will help train version 2.0, which you can be notified of updates of by following <Link href="https://www.instagram.com/vhs_venture/">Tom on Instagram</Link>.
           </p>
           <div className="vhs-stills">
             <img src="./../hoard.jpg" alt="Messy room full of hoarded books and media" />
