@@ -42,7 +42,7 @@ a {
 /* Page container */
 .vhs-back {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 0 auto;
   padding: .5rem;
   background: #f2efe6;
   color: #111;
@@ -409,7 +409,7 @@ a {
 /* Page container */
 .vhs-back {
   max-width: 900px;
-  margin: 4rem auto;
+  margin: 0 auto;
   padding: .5rem;
   overflow-x: hidden;
   background: var(--color-offwhite);
