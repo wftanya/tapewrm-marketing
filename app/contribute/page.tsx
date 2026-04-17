@@ -16,12 +16,12 @@ export default function Contribute() {
             <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
           </div>
         </Link>
-        <Link className="no-underline" href="https://app.tapewrm.org">
+        <a className="no-underline" href="https://app.tapewrm.org" target="_blank">
           <div>
             <span className="cta">Goto</span>
             <h1 className={`heading text-shadows`}>Tapewrm</h1>
           </div>
-        </Link>
+        </a>
         <span className="vhs-rating"> RATED <span className={symbols.className}>T</span></span>
       </header>
 

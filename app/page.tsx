@@ -6,12 +6,16 @@ import "./vhs.css";
 export default function Home() {
    return (
     <main className="home">
-      <div className="logo-circle">
-        <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
-      </div>
+     <a target="_blank" href="https://app.tapewrm.org" className="try-link">
+        <div className="logo-circle">
+          <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
+        </div>
+      </a>
 
-      <h1 className={`heading text-shadows`}>Tapewrm</h1>
-      <h2 className="subheading text-muted">VHS shelf cataloger with spine recognition</h2>
+      <a target="_blank" href="https://app.tapewrm.org" className="try-link">
+        <h1 className={`heading text-shadows`}>Tapewrm</h1>
+        <h2 className="subheading text-muted">VHS shelf cataloger with spine recognition</h2>
+      </a>
       <nav className="spine-row">
         <Link href="/about" className="spine-link">
           <div className="vhs-spine teal">
@@ -48,7 +52,7 @@ export default function Home() {
           </div>
         </Link>
 
-        <Link href="https://app.tapewrm.org" className="spine-link">
+        <a target="_blank" href="https://app.tapewrm.org" className="spine-link">
           <div className="vhs-spine purple">
             <span className="vhs-label-sticker">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-camera-icon lucide-camera"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/></svg>
@@ -59,7 +63,7 @@ export default function Home() {
             <div className="vhs-notch" />
             <div className="vhs-bottom" />
           </div>
-        </Link>
+        </a>
         
       </nav>
 

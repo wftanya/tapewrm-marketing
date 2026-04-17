@@ -17,12 +17,12 @@ export default function About() {
             <img src="/tapewrm_logo5.png" alt="Logo" className="logo-image" />
           </div>
         </Link>
-        <Link className="no-underline" href="https://app.tapewrm.org">
+        <a target="_blank" href="https://app.tapewrm.org" className="no-underline">
           <div>
             <span className="cta">Goto</span>
             <h1 className={`heading text-shadows`}>Tapewrm</h1>
           </div>
-        </Link>
+        </a>
         <span className="vhs-rating"> RATED <span className={symbols.className}>T</span></span>
       </header>
 
@@ -55,7 +55,7 @@ export default function About() {
           <p>
              Simply snap a photo of your VHS shelf and let Tapewrm do the rest as it extracts individual spines, reads the titles and consults with AI to cleanup
             any OCR errors, with the option to organize everything into a neat digital catalog that you can copy, paste, sort, and share as you please.
-            <Link href="https://app.tapewrm.org">Try it out!</Link>
+            <a href="https://app.tapewrm.org" target="_blank">Try it out!</a>
           </p>
           <div className="vhs-stills">
             <img className="larger-img" src="./../about4-portrait.png" alt="Screengrab of app showing shelf image upload" />

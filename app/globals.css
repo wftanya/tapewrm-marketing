@@ -606,3 +606,7 @@ a {
 .github-logo {
   width: 350px;
 }
+
+.try-link {
+  text-decoration: none;
+}
