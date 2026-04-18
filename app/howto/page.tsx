@@ -63,7 +63,7 @@ export default function HowTo() {
              Want to catalog your tapes but your shelves are more of a chaotic mess of horizontal stacks, leaning towers, and general VHS mayhem? <a href="https://app.tapewrm.org" target="_blank">Try it out anyways!</a> Your photo will help train version 2.0, which you can be notified of updates of by following <Link href="https://www.instagram.com/vhs_venture/">Tom on Instagram</Link>.
           </p>
           <div className="vhs-stills">
-            <img src="./../hoard.jpg" alt="Messy room full of hoarded books and media" />
+            <img src="./../sad.jpg" alt="Broken and leaning media shelf"></img>
           </div>
         </div>
 

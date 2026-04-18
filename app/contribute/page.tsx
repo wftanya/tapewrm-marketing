@@ -30,11 +30,8 @@ export default function Contribute() {
         <div className="vhs-text">
           <h2>CONTRIBUTE</h2>
           <p>
-            It works if you work it! Using the app is the best way to contribute to the project as it provides the photos that the OCR model needs to learn and improve. If our app helped you out, a small donation to help cover the costs of hosting would be hugely appreciated. 🫶
+            It works if you work it! Using the app is the best way to contribute to the project as it provides the photos that the OCR model needs to learn and improve. If our app helped you out, <a href="https://paypal.me/wftanns" target="_blank">a small donation to help cover the costs of hosting would be hugely appreciated.</a> 🫶
           </p>
-          <div className="vhs-stills">
-            <img src="./../qrcode.png" alt="Paypal send money QR code" />
-          </div>
           <p>
              Caught a bug in the app? Have an idea you want to implement? <Link href="https://github.com/wftanya/tapewrm">Open a pull request!</Link> Tapewrm is an open source project led by an overtired parent with a regular day job so help is always appreciated. Check out the GitHub repo for the code, and if you want to contribute but aren't sure how, reach out to Tom on Instagram and he'll put you onto our annotations assembly line to train V2!
           </p>
