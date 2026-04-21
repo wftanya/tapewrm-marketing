@@ -1,12 +1,13 @@
 :root {
   --background: #dc9238;
   --foreground: #171717;
-  --color-primary: #f6aca2;
-  --color-secondary: #f49b90;
-  --color-tertiary: #f28b7d;
-  --color-quaternary: #f07a6a;
-  --color-quinary: #52ee9d;
   --color-offwhite: #f2efe6;
+    /* ORANGE SHADOW STACK */
+  --color-primary:     #f29122; /* light orange highlight */
+  --color-secondary:   #e3992d; /* logo orange */
+  --color-tertiary:    #cf8424; /* deeper orange */
+  --color-quaternary:  #b8721d; /* burnt orange */
+  --color-quinary:     #68ac2a; /* KEEP GREEN */
 }
 
 /* Page layout */
@@ -277,9 +278,8 @@ a {
 }
 
 .green-font {
-  color :#52ee9d !important;
+  color : var(--color-quinary) !important;
 }
-
 
 .no-upper {
   text-transform: none !important;
@@ -309,7 +309,7 @@ a {
   font-size: calc(1rem + 5vw);
   text-align: center;
   margin-bottom: 0;
-  color: var(--color-primary);
+  color: var(--color-offwhite);
   -webkit-animation: shadows 1.5s ease-in infinite;
           animation: shadows 1.5s ease-in infinite;
   letter-spacing: 0.2rem;
