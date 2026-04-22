@@ -304,7 +304,7 @@ a {
 .text-shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
   font-family: bungee, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: calc(1rem + 5vw);
   text-align: center;
