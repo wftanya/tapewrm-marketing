@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 Allow: /about
-Allow: /howto
 Allow: /contribute
 Disallow: /private/
 

@@ -61,6 +61,31 @@ export default function About() {
             <img className="larger-img" src="./../about4-portrait.png" alt="Screengrab of app showing shelf image upload" />
             <img className="larger-img" src="./../about2-portrait.png" alt="Screengrab of app showing results display" />
           </div>
+
+          <h2 id="howto">HOW TO</h2>
+          <p>
+            The current iteration of the Tapewrm app is trained on shelves of roughly 100 tapes aligned in single rows of vertical standing spines.
+            So if this looks like your collection, you're in luck!
+            <a href="https://app.tapewrm.org" target="_blank"> Just snap a photo of it and feed it to Tapewrm.</a>
+          </p>
+
+          <div className="vhs-stills">
+            <img src="./../how2.png" alt="User demonstrating how to use the app by holding phone to VHS shelf" />
+          </div>
+
+          <p>
+            If Tapewrm gets stumped on a tape, the app will present you with the extracted spine and ask you to fill out the title manually with the help of live autocomplete results by TMDB (The Movie Database).
+          </p>
+          <div className="vhs-stills">
+            <img className="larger-img" src="./../manual1.png" alt="Screengrab of app showing manual entry mode with autcomplete" />
+            <img className="larger-img" src="./../manual2.png" alt="Screengrab of app showing manual entry mode with autocomplete" />
+          </div>
+          <p>
+             Want to catalog your tapes but your shelves are more of a chaotic mess of horizontal stacks, leaning towers, and general VHS mayhem? <a href="https://app.tapewrm.org" target="_blank">Try it out anyways!</a> Your photo will help train version 2.0, which you can be notified of updates of by following <Link href="https://www.instagram.com/vhs_venture/">Tom on Instagram</Link>.
+          </p>
+          <div className="vhs-stills">
+            <img src="./../sad.jpg" alt="Broken and leaning media shelf"></img>
+          </div>
         </div>
 
 
