@@ -34,7 +34,7 @@ export default function About() {
         </blockquote>
 
         <blockquote>
-          &ldquo;No more accidentally buying tapes I already own! TAPEWRM cataloged my collection in less than 12 parsecs* &rdquo;
+          &ldquo;No more accidentally buying tapes I already own! TAPEWRM cataloged my collection in less than 12 parsecs*&rdquo;
           <span>— Physical media enthusiast</span>
         </blockquote>
       </section>
