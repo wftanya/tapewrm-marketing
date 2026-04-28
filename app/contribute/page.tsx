@@ -22,7 +22,6 @@ export default function Contribute() {
             <h1 className={`heading text-shadows`}>Tapewrm</h1>
           </div>
         </a>
-        <span className="vhs-rating"> RATED <span className={symbols.className}>T</span></span>
       </header>
 
       {/* Main content grid */}
