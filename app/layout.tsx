@@ -23,7 +23,7 @@ const fightFont = localFont({ src: "./fonts/fightclub2.ttf", variable: "--font-f
 const fadedFont = localFont({ src: "./fonts/faded2.ttf", variable: "--font-faded" });
 
 export const metadata: Metadata = {
-  title: "TAPEWRM - VHS Shelf Cataloger with Spine Recognition",
+  title: "TAPEWRM - VHS Collection Cataloger with Spine Recognition",
   description: "Upload photos of VHS shelves or stacks and automatically extract spine titles using computer vision. Review unrecognized tapes and improve future training."
 };
 

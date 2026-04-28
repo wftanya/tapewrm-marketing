@@ -610,3 +610,7 @@ a {
 .try-link {
   text-decoration: none;
 }
+
+#howto {
+  margin-top: 2rem;
+}

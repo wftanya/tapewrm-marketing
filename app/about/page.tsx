@@ -91,6 +91,19 @@ export default function About() {
 
     
       </section>
+      
+      {/* Review quotes */}
+      <section className="vhs-reviews">
+        <blockquote>
+          &ldquo;For best results, straighten your stacks!&rdquo;
+          <span>— Fellow Enthusiast</span>
+        </blockquote>
+
+        <blockquote>
+          &ldquo;I stack my tapes wide, so before I uploaded them to TAPEWRM, I just rotated them in my Gallery &rdquo;
+          <span>— Clever Person</span>
+        </blockquote>
+      </section>
 
       {/* CreditOs block */}
       <footer className="vhs-credits">
